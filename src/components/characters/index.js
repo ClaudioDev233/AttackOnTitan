@@ -1,10 +1,5 @@
-
+import aotLogo from "../../assets/images/aotLogo.svg";
 import { useState, useEffect, Children } from "react";
-
-
-
-
-
 
 export default function Characters() {
   const url = "https://aot-api.herokuapp.com/characters/";
@@ -22,6 +17,7 @@ export default function Characters() {
   return (
     <>
       <div className="container">
+        <img src={aotLogo}></img>
         {datas.map((chara) => console.log(chara.img))}
         {Children.toArray(
           datas.map((characters) => {

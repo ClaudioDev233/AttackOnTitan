@@ -1,11 +1,21 @@
 body {
-  background-image: url("https://i.gifer.com/79nY.gif");
+  background-image: url("./assets/images/background.jpg");
   background-repeat: no-repeat;
-  background-position: center;
+  background-size: cover;
+  background-blend-mode: multiply;
 
-  height: 50vh;
+  height: 100vh;
   padding: 0;
   margin: 0;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+    background-image: url("./assets/images/3616.gif");
+    background-repeat: no-repeat;
+    background-position: center;
+  }
 }
 
 .container {
@@ -16,3 +26,5 @@ body {
   border-radius: 10px;
   border: 1px solid rgba(255, 255, 255, 0.18);
 }
+
+/* https://i.gifer.com/79nY.gif */

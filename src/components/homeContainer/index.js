@@ -1,3 +1,5 @@
-export default function HomeContainer() {
-  return <div></div>;
+import { Background } from "./styles";
+
+export default function HomeContainer({ children }) {
+  return <Background>{children}</Background>;
 }

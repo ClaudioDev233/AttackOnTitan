@@ -5,11 +5,12 @@ import Menu from "../../components/menu";
 export default function Home() {
   return (
     <>
-      <Menu></Menu>
+      {/* <Menu></Menu> */}
 
-      {/* <HomeContainer>
+      <HomeContainer>
         <WelcomeCard></WelcomeCard>
-      </HomeContainer> */}
+      </HomeContainer>
+      <Characters></Characters>
     </>
   );
 }

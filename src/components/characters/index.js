@@ -17,7 +17,7 @@ export default function Characters() {
   return (
     <>
       <div className="container">
-        <img src={aotLogo}></img>
+        {/* <img src={aotLogo}></img> */}
         {datas.map((chara) => console.log(chara.img))}
         {Children.toArray(
           datas.map((characters) => {

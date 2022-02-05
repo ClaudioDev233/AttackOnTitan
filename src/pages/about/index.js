@@ -21,6 +21,28 @@ export default function About() {
         <p>Veja a documentação aqui para ver como fazer as requisições</p>
         <p>Clique aqui para ver um exemplo de como a API pode ser usada</p>
       </div>
+      <h1>Acha que falta algo na API?</h1>
+      <p>
+        Estou aberto a sugestões, tanto sobre conteúdo quanto sobre o jeito que
+        a API foi construída, entre em contato comigo pelo GitHub e envie suas
+        sugestões.
+      </p>
+      <h1>Quem criou essa API?</h1>
+      <p>Euzinho</p>
+
+      <h1>De onde vieram as informações?</h1>
+      <p>
+        As informações da API foram retiradas das wikis AOT, sendo elas :
+        https://attackontitan.fandom.com/pt-br/wiki/Attack_on_Titan_Wiki ,
+        https://attackontitan.fandom.com/wiki/Attack_on_Titan_Wiki
+      </p>
+      <h1>Qual foi a Stack ultilizada para a construção da API?</h1>
+      <p>
+        Por ser a minha primeira tentativa de crição de uma API e também por ser
+        bem simples utilizei: NodeJs (pois a linguagem que mais "tenho" dominio
+        é o JavaScript), a biblioteca Express e o Insomnia para testes. A API
+        está hospedada em um servidor utilizando Herokuapp.
+      </p>
       <Titans></Titans>
     </>
   );

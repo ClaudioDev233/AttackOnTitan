@@ -1,16 +1,22 @@
 import styled from "styled-components";
 
-export const NavMenu = styled.header`
+export const NavMenu = styled.div`
   display: flex;
+  justify-content: space-between;
+  align-items: center;
   width: 100%;
-  background-color: lightblue;
+  background-color: #774023;
+  height: 60px;
+`;
 
-  ul {
-    display: flex;
-    list-style-type: none;
-    justify-content: right;
-    li {
-      padding: 40px;
-    }
-  }
+export const Img = styled.img`
+  width: 150px;
+  margin: 0 50px 0 50px;
+`;
+
+export const MenuDiv = styled.div`
+  display: flex;
+  margin: 0 50px 0 50px;
+  width: 10%;
+  justify-content: space-between;
 `;

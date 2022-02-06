@@ -39,7 +39,7 @@ export default function About() {
       <h1>Qual foi a Stack ultilizada para a construção da API?</h1>
       <p>
         Por ser a minha primeira tentativa de crição de uma API e também por ser
-        bem simples utilizei: NodeJs (pois a linguagem que mais "tenho" dominio
+        bem simples utilizei: NodeJs (pois a linguagem que mais "tenho" domínio
         é o JavaScript), a biblioteca Express e o Insomnia para testes. A API
         está hospedada em um servidor utilizando Herokuapp.
       </p>

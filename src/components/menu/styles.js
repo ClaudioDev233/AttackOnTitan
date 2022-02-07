@@ -1,22 +1,41 @@
 import styled from "styled-components";
 
-export const NavMenu = styled.div`
+export const NavMenu = styled.nav`
   display: flex;
-  justify-content: space-between;
   align-items: center;
   width: 100%;
-  background-color: #774023;
+  background-color: #6f553f;
   height: 60px;
-`;
-
-export const Img = styled.img`
-  width: 150px;
-  margin: 0 50px 0 50px;
-`;
-
-export const MenuDiv = styled.div`
-  display: flex;
-  margin: 0 50px 0 50px;
-  width: 10%;
   justify-content: space-between;
+  color: #ffeccf;
+`;
+
+export const Logo = styled.section`
+  padding: 50px;
+  img {
+    height: 200px;
+    width: 200px;
+  }
+`;
+
+export const MenuSection = styled.section`
+  padding: 50px;
+  ul {
+    display: flex;
+    gap: 20px;
+
+    li {
+      &:hover {
+        background-color: #ffeccf;
+        color: #403535;
+      }
+    }
+  }
+`;
+export const Button = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90px;
+  height: 50px;
 `;

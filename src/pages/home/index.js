@@ -5,8 +5,8 @@ import Menu from "../../components/menu";
 export default function Home() {
   return (
     <>
-      <Menu></Menu>
-
+      {/* <Menu></Menu>
+       */}
       <HomeContainer>
         <WelcomeCard></WelcomeCard>
       </HomeContainer>

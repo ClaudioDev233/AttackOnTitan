@@ -1,30 +1,32 @@
-import { NavMenu, Img, MenuDiv } from "./styles";
+import { NavMenu, Logo, MenuSection, Button } from "./styles";
 import aotLogo from "../../assets/images/aotLogo.svg";
 export default function Menu() {
   return (
     <>
-      <nav>
-        <section>
+      <NavMenu>
+        <Logo>
           <img src={aotLogo}></img>
-        </section>
-        <ul>
-          <li>
-            <div>
-              <p>Merda</p>
-            </div>
-          </li>
-          <li>
-            <div>
-              <p>Merda</p>
-            </div>
-          </li>
-          <li>
-            <div>
-              <p>Merda</p>
-            </div>
-          </li>
-        </ul>
-      </nav>
+        </Logo>
+        <MenuSection>
+          <ul>
+            <li>
+              <Button>
+                <p>Sobre</p>
+              </Button>
+            </li>
+            <li>
+              <Button>
+                <p>Docs</p>
+              </Button>
+            </li>
+            <li>
+              <Button>
+                <p>Exemplos</p>
+              </Button>
+            </li>
+          </ul>
+        </MenuSection>
+      </NavMenu>
     </>
   );
 }

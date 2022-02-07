@@ -11,7 +11,7 @@ export const NavMenu = styled.nav`
 `;
 
 export const Logo = styled.section`
-  padding: 50px;
+  padding: 250px;
   img {
     height: 200px;
     width: 200px;
@@ -19,10 +19,11 @@ export const Logo = styled.section`
 `;
 
 export const MenuSection = styled.section`
-  padding: 50px;
+  padding: 200px;
   ul {
     display: flex;
     gap: 20px;
+    list-style: none;
 
     li {
       &:hover {

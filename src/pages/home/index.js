@@ -8,7 +8,6 @@ export default function Home() {
       <HomeContainer>
         <WelcomeCard></WelcomeCard>
       </HomeContainer>
-      {/* <Characters></Characters> */}
     </>
   );
 }
